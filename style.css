@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,700;1,400&family=Inter:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,700;1,400&family=Gilda+Display&family=Inter:wght@300;600&display=swap');
+
+:root{
+    --color-primary:#152C40;
+    --color-secundary: aliceblue;
+
+}
+
+*{
+    font-family:'Inter',sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+#home-content{
+
+    width: 100%;
+    background-color: var(--color-primary);
+    display: block;
+    
+}
+
+
+
+#home-logo{
+    height: 200px;
+    margin-top: -85px;
+}  
+
+#home-contato{
+
+    text-align: center;
+    color: var(--color-secundary);
+    padding:40px;
+    line-height: 70px;
+    
+}
+#home-contato h1{
+
+    font-size: 50px;
+   
+}
+#home-contato p{
+    font-size: 40px;
+}
+#home-contato h4{
+    font-size: 15px;
+}
+#home-button{
+    
+    text-align: center;
+}
+#home-button button{
+
+    padding: 20px;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    color:var(--color-primary);
+    font-size: 13px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+#home-button button:hover{
+
+    background-color:#5CF266 ;
+}
+
+#quemsomos-content{
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+ background-color: var(--color-secundary);
+ 
+ 
+}
+
+   
+
+#image{
+    padding: 45px;
+    margin-left: 20px;
+    width: 500px;
+    margin-top: 70px;
+
+}
+
+
+#quemsomos{
+
+    padding: 45px;
+    margin-top: 10px;
+    
+}
+#quemsomos h1{
+
+    text-align: center;
+    font-size: 40px;
+    font-family:'Gilda';
+    font-weight: lighter;
+    color: var(--color-primary);
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+#quemsomos p{
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 30px;
+ 
+}
+
+
+
+#location-content{
+
+    display: flex;
+    background-color: var(--color-primary);
+}
+
+#location-map{
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+
+#location-boxes{
+
+    padding: 100px;
+    text-align: center;
+    
+        
+}
+
+#location-boxes #p1 {
+    
+    color: var(--color-secundary);
+    font-size: 30px;
+  }
+
+
+#location-boxes #presencial #p2{
+    font-size: 15px;
+
+    
+}
+#location-boxes #presencial{
+
+    background-color:var(--color-secundary);
+    padding: 10px;
+    line-height: 40px;
+    margin-top: 50px;
+    font-size: 15px;
+    
+}
+
+#location-boxes #online{
+
+    background-color:var(--color-secundary);
+    padding: 10px;
+    line-height: 40px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+
+#footer_copywriter{
+
+    text-align: center;
+    font-weight: lighter;
+}
+
+.whats{
+
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 999;
+
+}
+
+@media (max-width:900px){
+
+    
+    #location-content{
+    
+        flex-direction: column;
+    }
+
+    #location-map iframe{
+
+        width:100%;
+    }
+
+    #image{
+        width: 500px;
+    }
+    #home-contato h1{
+        font-size: 30px;
+    }#home-contato p{
+        font-size: 30px;
+    }
+    #home-contato h4{
+        font-size: 10px;
+       
+    }
+    #quemsomos-content{
+        flex-direction: column;
+    }
+    #image{
+        width: 350px;
+        
+ }
+
+ #home-button button{
+
+    width: 150px;
+ }
+}
+
+ 
+
+        
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+  
+

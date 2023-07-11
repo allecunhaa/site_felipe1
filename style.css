@@ -211,13 +211,18 @@
         flex-direction: column;
     }
     #image{
-        width: 350px;
+        width: 450px;
         
  }
 
  #home-button button{
 
     width: 150px;
+ }
+ 
+ #quemsomos p{
+
+    text-align: justify;
  }
 }
 
